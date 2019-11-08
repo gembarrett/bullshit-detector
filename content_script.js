@@ -1,4 +1,16 @@
-var site_list = [];
+// list obtained from Snopes https://www.snopes.com/news/2016/01/14/fake-news-sites
+var site_list = ['rt.com',
+'breitbart.com',
+'nationalreport.net',
+'worldnewsdailyreport.com',
+'huzlers.com',
+'empirenews.net',
+'stuppid.com',
+
+];
+
+// search for these domains, inc if they are pre-fixed by a . for subdomain
+// look for country-specific versions of these sites
 
 window.addEventListener('load', (event) => {
   console.log('page is fully loaded');
